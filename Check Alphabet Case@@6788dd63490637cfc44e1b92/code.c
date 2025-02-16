@@ -2,7 +2,7 @@
 
 int main() {
     char ch;
-    scanf("%c", &ch);  // Corrected format specifier
+    scanf("%c", &ch);  
 
     if (ch >= 'A' && ch <= 'Z') {
         printf("Uppercase\n");
@@ -11,6 +11,5 @@ int main() {
     } else {
         printf("Not an alphabet\n");
     }
-
-    return 0;
+    return 0;
 }
