@@ -1,12 +1,9 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     int a;
-    scanf("%d", &a);  // Correct format specifier
+    scanf("%d",&a);
 
-    for (int i = 1; i <= 10; i++) {  // Fix the comparison operator
-        printf("%d x %d = %d\n", a, i, a * i);
+    if(int i=1;i<=10,i++){
+        printf("%d X %d = %d",a,i,a*i)
     }
-
-    return 0;
 }
