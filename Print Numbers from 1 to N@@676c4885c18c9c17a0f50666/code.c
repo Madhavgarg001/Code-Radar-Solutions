@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
     int a;
-    printf("%d",&a);
+    scnaf("%d",&a);
     for(i=1;i<=a;i++){
-        printf("%d",a);
+        printf("%d",i);
     }
     return 0;
 }
