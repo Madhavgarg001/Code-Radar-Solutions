@@ -1,13 +1,10 @@
-#include <stdio.h>
-
-int main() {
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    if (num / 2 * 2 == num) {
-        printf("Even.\n");
-    } else {
-        printf("Odd.\n");
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a/2*2==a){
+        printf("Even")
+    }else{
+        printf("Odd")
     }
-    return 0;
 }
