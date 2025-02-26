@@ -2,7 +2,7 @@
 int main(){
     int a;
     if(a==2){
-        printf("Prime")
+        printf("Prime");
         if(a%2!=0){
             printf("Prime");
         }else{
