@@ -4,7 +4,7 @@ int main(){
     if(a%2!=0){
         printf("Prime");
     }else{
-        printf("Not prime");
+        printf("Not Prime");
     }
     return 0;
 }
