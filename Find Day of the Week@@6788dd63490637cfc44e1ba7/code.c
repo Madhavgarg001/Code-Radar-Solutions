@@ -5,7 +5,7 @@ int main(){
     switch(a){
         case 1:
         printf("Monday");
-        break
+        break;
         case 2:
     }
 
