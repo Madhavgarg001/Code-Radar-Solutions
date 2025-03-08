@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,
+    int a;
     scanf("%d",&a);
     if(a==1){
         printf("Monday");
@@ -19,4 +19,5 @@ int main(){
     }else{
         printf("Invalid");
     }
+    return 0;
 }
