@@ -7,6 +7,8 @@ int main(){
         printf("Monday");
         break;
         case 2:
+        printf("Tuesday");
+        break;
     }
 
     return 0;
