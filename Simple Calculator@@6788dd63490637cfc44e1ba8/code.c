@@ -1,23 +1,31 @@
-#include<stdio.h>
-int main(){
-    int a,b;
+#include <stdio.h>
+
+int main() {
+    int a, b;
     char c;
-    scanf("%d %d %c", &a, &b, &c);
-    switch(c){
+
+    scanf("%d%d %c", &a, &b, &c);
+
+    switch (c) {
         case '+':
-        printf("%d\n",a+b);
-        break;
+            printf("%d\n", a + b);
+            break;
         case '-':
-        printf("%d",a-b);
-        break;
+            printf("%d\n", a - b);
+            break;
         case '*':
-        printf("%d",a*b);
-        break;
+            printf("%d\n", a * b);
+            break;
         case '/':
-        printf("%d",a/b);
-        break;
+            if (b == 0) {
+                printf("error: division by zero\n");
+            } else {
+                printf("%d\n", a / b);
+            }
+            break;
         default:
-        printf("error");
+            printf("error\n");
     }
-    return 0;
+
+    return 0;
 }
