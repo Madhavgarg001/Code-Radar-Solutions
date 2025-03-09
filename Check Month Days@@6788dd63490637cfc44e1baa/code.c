@@ -4,40 +4,40 @@ int main(){
     scanf("%d",&a);
     switch(a){
         case 1:
-        printf("January");
+        printf("31");
         break;
         case 2:
-        printf("Febuary");
+        printf("28");
         break;
         case 3:
-        printf("March");
+        printf("31");
         break;
         case 4:
-        printf("April");
+        printf("30");
         break;
         case 5:
-        printf("May");
+        printf("31");
         break;
         case 6:
-        printf("June");
+        printf("30");
         break;
         case 7:
-        printf("July");
+        printf("31");
         break;
         case 8:
-        printf("August");
+        printf("30");
         break;
         case 9:
-        printf("September");
+        printf("31");
         break;
         case 10:
-        printf("Octobor");
+        printf("30");
         break;
         case 11:
-        printf("Nevember");
+        printf("31");
         break;
         case 12:
-        printf("December");
+        printf("30");
         break;
         default:
         printf("Invalid month");
