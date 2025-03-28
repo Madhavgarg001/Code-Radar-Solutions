@@ -2,6 +2,7 @@
 void sorted arr();
 int main(){
     sorted arr();
+    return 0;
     
 }
 void sorted arr(){
