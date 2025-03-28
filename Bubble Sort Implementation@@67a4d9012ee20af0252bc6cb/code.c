@@ -1,11 +1,11 @@
 #include<stdio.h>
-void sorted arr();
+void sortedarr();
 int main(){
-    sorted arr();
+    sortedarr();
     return 0;
     
 }
-void sorted arr(){
+void sortedarr(){
         int n;
     scanf("%d",&n);
     int arr[n];
