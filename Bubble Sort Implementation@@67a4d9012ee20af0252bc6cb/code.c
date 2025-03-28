@@ -12,7 +12,7 @@ void sortedarr(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubble sort(arr,n);
+    bubblesort(arr,n);
     printArrat(arr,n);
     return 0;
 }
